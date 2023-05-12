@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  height: 150vh;
+}
+.toDos-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 8px;
+  height: 120vh;
+  width: 70vw;
+}
+.simple-toDos-heading {
+  color: #ff8542;
+  font-family: roboto;
+  font-size: 30px;
+}
+.todos-list {
+  padding-left: 0px;
+}
